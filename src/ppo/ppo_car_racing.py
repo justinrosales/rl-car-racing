@@ -43,7 +43,7 @@ class GymnasiumWrapper(gym.Env):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define paths relative to the script
-log_path = os.path.join(script_dir, "ppo_car_racing_tensorboard")
+log_path = os.path.join(script_dir, "tensorboard_logs")
 model_path = os.path.join(script_dir, "ppo_car_racing")
 
 # Create the gymnasium environment
